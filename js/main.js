@@ -2,7 +2,7 @@ import "../styles/style.css";
 import { distance, randomIntFromRange, randomColor } from "./utils";
 import ObjectClass from "./classes/ObjectClass";
 
-const canvas = document.querySelector("canvas");
+const canvas = document.querySelector("myCanvas");
 const ctx = canvas.getContext("2d");
 
 canvas.width = innerWidth;
